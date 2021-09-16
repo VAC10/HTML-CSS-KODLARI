@@ -1,0 +1,182 @@
+/*css dosyası*/
+
+/* herşeyi sıfırla*/
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color:aquamarine;
+  background-image:url("resimler/arkaplan.jpg");
+  background-size:2000px;
+  min-height:400px;
+}
+#sayfa{
+  width:650px;
+  min-height:900px;
+  border-style:solid;
+  border-width:1px;
+  border-color:aqua;
+  margin:auto;
+
+}
+#banner{
+  width:650px;
+  height:100px;
+  border-style:none;
+  border-width:1px;
+  border-color:none;
+  margin:auto;
+  background-color:white;
+
+}
+#logo{
+  width:100px;
+  height:80px;
+  border-style:none;
+  border-width:1px;
+  border-color:aqua;
+  margin:auto;
+  background-color:white;
+  float:left;
+  position:relative;
+  top:10px;
+  left:10px;
+}
+#sosyal{
+  width:130px;
+  height:40px;
+  border-style:none;
+  border-width:1px;
+  border-color:aqua;
+  margin:auto;
+  background-color:seagreen;
+  float:right;
+  background-color:white;
+  top:50px;
+  right:10px;
+  position:relative;
+
+}
+#kendiikon{
+width:100px;
+}
+#ikon{
+  width:40px;
+
+}
+#insta{
+  width:40px;
+}
+#anamenu{
+  width:650px;
+  height:50px;
+  border-style:dotted;
+  border-width:1px;
+  border-color:none;
+  margin:auto;
+  background-color:deepskyblue;
+
+}
+#anamenu ul{
+  list-style-type:none;
+
+}
+#anamenu ul li{
+  border-style:solid;
+  width:90px;
+  border-width:3px;
+  border-radius:30px;
+  border-color:blue;
+  float:left;
+  margin-left: 10px;
+  position:relative;
+  top:10px;
+  text-align:center;
+  margin-right:30px;
+  left:60px;
+  background-color:white;
+  font-size:10px;
+  padding:5px;
+
+}
+#anamenu ul a{
+  text-decoration: none;
+  font-family:verdana;
+  font-weight:bold;
+}
+#anamenu ul a:link{
+color:blue;
+}
+#anamenu ul a:visited{
+color:red;
+}
+#anamenu ul a:hover{
+color:orange;
+text-decoration:underline;
+font-size:10px;
+}
+#anamenu ul a:active{
+  color:red;
+
+}
+#icerik{
+  width:546px;
+  min-height:670px;
+  border-style:dotted;
+  border-width:1px;
+  background-color:white;
+  float:left;
+}
+#yanmenu{
+  width:100px;
+  min-height:670px;
+  border-style:solid;
+  border-width:1px;
+  background-color:royalblue;
+  float:left;
+
+}
+.resim{
+  float:left;
+  width:200px;
+  margin:5px;
+}
+.metin{
+  font-family:verdana;
+  font-size: 15px;
+}
+.baslik{
+  font-family:georgia;
+  color:red;
+  font-size:25px;
+  font-weight:bolder;7
+
+
+}
+#altmenu{
+  width:650px;
+  min-height:74px;
+  border-style:dotted;
+  border-width:1px;
+  background-color:aqua;
+  float:left;
+  text-align: center;
+  color:red;
+  position: relative;
+  
+
+
+}
+#altmenu a{
+  font-family: verdana;
+  font-size: 10px;
+  font-weight: bolder;
+  color:black;
+  position: relative;
+
+}
+#altmenu a:hover{
+  color:orange;
+  text-decoration: underline;
+}
